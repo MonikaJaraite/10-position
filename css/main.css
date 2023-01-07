@@ -1,0 +1,160 @@
+
+
+body *, 
+body {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+section {
+    display: inline-block;
+    width: 100%;
+    padding: 40px;
+    border-bottom: 1px solid;
+}
+
+section:last-of-type {
+    border: none;
+}
+
+.box-default {
+    float: left;
+    width: 50%;
+    background-color: aqua;;
+}
+.box {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 10px solid #000;
+    background-color: pink;
+}
+
+.pom-sec {
+    position: relative;
+}
+
+.pomidoras {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    padding: 60px;
+    background-color: bisque;
+    position: relative;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+}
+
+p {
+    display: inline-block;
+    width: 100%;
+    margin: 1em;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.agurkas {
+    display: inline-block;
+    width: 100%;
+    padding: 60px;
+    background-color:lawngreen;
+    color: #fff;
+    position: relative;
+}
+
+.check {
+    width: 40px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.a {
+    background-color: pink;
+    height: 400px;
+    position: relative;
+}
+.b {
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    background-color: violet;
+    color: #000;
+    position: absolute;
+    bottom: 10px; 
+    right: 10px;
+}
+.c {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    background-color: gold;
+    color: #000;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.open {
+    width: 40px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: cornflowerblue;
+}
